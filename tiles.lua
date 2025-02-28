@@ -1,0 +1,5 @@
+Tile = {
+    isWalkable,
+    x,
+    y
+}
