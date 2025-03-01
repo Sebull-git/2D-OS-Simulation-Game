@@ -1,7 +1,7 @@
 player_y = 0
 running = true
 main_menu = true
-width, height = love.window.getMode( )
+width, height = love.window.getMode()
 ball_x = width / 2
 ball_y = height / 2
 autoplay = true
@@ -23,7 +23,6 @@ function love.draw()
             love.graphics.print("GAME LOST",width  / 2, height / 2)
         end 
     end
-    
 end
 
 
@@ -97,7 +96,7 @@ function love.update()
         end
 
         -- ball hit the left bound
-        -- TODO potential loose!
+        -- Loose
         if ball_x  <= 0 then 
             running = false
             -- ball came from up 
@@ -110,6 +109,7 @@ function love.update()
         end
 
         -- ball hit the player 
+        --! why is this only working when the size is set by love?
         if ball_y >= player_y and ball_y <= player_y + 100 and ball_x <= 0 + 50 then 
             if ball_v.y > 0 then 
                 ball_v.x = ball_vel
