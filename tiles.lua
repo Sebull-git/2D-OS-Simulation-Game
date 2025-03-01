@@ -1,5 +1,0 @@
-Tile = {
-    isWalkable,
-    x,
-    y
-}
