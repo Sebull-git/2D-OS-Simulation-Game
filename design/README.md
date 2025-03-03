@@ -55,6 +55,8 @@ Different Goals with which exclude each other?
 
 Start from ring 3 with every ring the player will be able to access more of the operating system 
 
+## Inspirations
 
-
-
+- Cogmind https://www.youtube.com/watch?v=3b11EA6XW3w
+- ADOM https://www.youtube.com/watch?v=sH5ohcGnRm0
+- 
